@@ -29,8 +29,5 @@ def predict():
     return render_template('result.html', a1=new[0][0], a2=new[0][1],a3=new[0][2],a4=new[0][3],a5=new[0][4],a6=new[0][5],a7=new[0][6])
     
 
-    
-    # return render_template('index.html', prediction_text='The Predicted EV Range: {0} km \n City - Cold Weather: {1} km \n Highway - Cold Weather: {2} km \n Combined - Cold Weather: {3} km \n City - Mild Weather: {4} km \n Highway - Mild Weather: {5} km \n Combined - Mild Weather: {6} km' .format(new[0][0],new[0][1],new[0][2],new[0][3],new[0][4],new[0][5],new[0][6]))
-
 if __name__=="__main__":
     app.run(debug=True, port=8000)
