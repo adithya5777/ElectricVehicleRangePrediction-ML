@@ -1,4 +1,4 @@
-# Electric-Vehicle-Range-ML- ⚡🪫🔋🚘
+# Electric-Vehicle-Range-Prediction-ML- ⚡🪫🔋🚘
 
 
 - Given a dataset on electric vehicles details.
